@@ -1,0 +1,2 @@
+deps/src/github.com/nats-io/gnatsd/gnatsd /usr/sbin
+gnatsd.conf /etc

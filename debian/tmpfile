@@ -1,0 +1,2 @@
+z /etc/gnatsd.conf 0640 root gnatsd -
+d /var/lib/gnatsd 0755 gnatsd gnatsd -

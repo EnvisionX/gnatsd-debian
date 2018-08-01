@@ -1,0 +1,6 @@
+[submodule "deps/src/github.com/nats-io/gnatsd"]
+	path = deps/src/github.com/nats-io/gnatsd
+	url = https://github.com/nats-io/gnatsd
+[submodule "deps/src/github.com/nats-io/nuid"]
+	path = deps/src/github.com/nats-io/nuid
+	url = https://github.com/nats-io/nuid

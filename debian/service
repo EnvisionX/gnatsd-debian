@@ -1,0 +1,14 @@
+[Unit]
+Description=NATS Messaging Server
+After=network.target
+
+[Service]
+Type=simple
+User=gnatsd
+UMask=0077
+ExecStart=/usr/sbin/gnatsd -c /etc/gnatsd.conf
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
