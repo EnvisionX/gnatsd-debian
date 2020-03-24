@@ -4,3 +4,6 @@
 [submodule "deps/src/github.com/nats-io/nuid"]
 	path = deps/src/github.com/nats-io/nuid
 	url = https://github.com/nats-io/nuid
+[submodule "nats-server"]
+	path = nats-server
+	url = https://github.com/nats-io/nats-server
